@@ -15,6 +15,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 .fixed .number {
@@ -36,6 +37,9 @@ body {
     background-size: cover;
 }
 
+.container {
+    position: relative;
+}
 section.box {
     position: absolute;
     top: 50%;
